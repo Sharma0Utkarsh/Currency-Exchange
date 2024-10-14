@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+  
+  
+body{
+    background-color: lightblue;
+}
+.container{
+    min-height:95vh;
+    font-family: 'Poppins', sans-serif;
+    background: wheat;
+    margin: auto;
+    max-width: 80vw;
+    background-image: url(indian-rupee.jpeg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+.container h1,h2{
+    margin: 23px 0;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+.container form input[type='number'],select,label{
+    background-color: azure;
+    font-size: 20px;
+    margin-bottom: 20px ;
+    width: 22vw;
+}
+.container form label{
+    font-size: 20px;
+   
+}
+nav{
+    font-weight: bold;
+    display: flex;
+    font-size: 20px ;
+    background-color: aqua;
+    padding: 25px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+}
+nav li a:hover{
+    text-decoration: none;
+    color: red;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+nav ul {
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    width: 145px;
+    padding: 5px 8px;
+    border-radius: 13px;
+    font-size: 23px;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+}
+.output {
+    display: none;
+}
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.output table th{
+    padding: 3px;
+}
+
+footer{
+    text-align: center;
+}
